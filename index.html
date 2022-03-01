@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Add Edit Assignment</title>
+    <link rel="stylesheet" href="./assignment.css" />
+    <script src="./assignment.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tab tab-1">
+        <table id="table" border="1">
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Origin</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+          </tr>
+        </table>
+      </div>
+      <div class="tab tab-2">
+        Fruit Name :<input type="text" name="fname" id="fname" /> Price :<input
+          type="number"
+          name="price"
+          id="price"
+        />
+        Origin :<input type="text" name="origin" id="origin" /> Quantity :<input
+          type="number"
+          name="quantity"
+          id="quantity"
+        />
+        Total Price :<input type="number" name="Totalprice" id="Totalprice" />
+
+        <button onclick="addHTMLtableRow();">Add</button>
+        <button onclick="editHTMLTableselectedRow();">edit</button>
+        <button>delete</button>
+      </div>
+    </div>
+  </body>
+</html>
